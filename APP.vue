@@ -178,15 +178,15 @@
 	.todo-item label span.check-button::after{
 		transition: 0.4s;
 		background: #B382F9;
-		transform: translate(1px,1px) scale(0.8);/* //缩小0.8 向下1px */
+		transform: translate(1px,1px) scale(0.8);/* 缩小0.8 向下1px */
 		opacity: 0;
 	}
-	 .todo-item input{/*//原生复选框隐藏掉 */
+	 .todo-item input{/*原生复选框隐藏掉 */
 		margin-right: 16px;
 		opacity: 0;
 	}
-	 .todo-item input:checked+span.check-button::after{/*//选中状态 */
-		 opacity: 1;/*//透明度为1 */
+	 .todo-item input:checked+span.check-button::after{/*选中状态 */
+		 opacity: 1;/*透明度为1 */
 	}
 
 </style>
