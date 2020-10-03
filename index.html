@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>南航附属学校学生成绩管理系统</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.3.1.js"></script>
+
+</head>
+<body>
+<form class="login-form" method="get">
+    <h1>学生成绩管理系统</h1><br>
+    <div class="txtb">
+        <input type="text" name="tea_no"    >
+        <span data-placehoder="Username"></span>
+    </div>
+    <div class="txtb">
+        <input type="text" name="pwd"    >
+        <span data-placehoder="Password"></span>
+    </div>
+    <input type="submit" value="&nbsp;登&nbsp;录&nbsp;" class="logtn" ></div>
+
+</form>
+<script type="text/javascript">
+    $(".txtb input").on("focus",function () {
+        $(this).addClass("focus");
+
+    });
+    $(".txtb input").on("blur",function () {
+        if($(this).val()==""){
+            $(this).removeClass("focus");
+        };
+
+
+    });
+
+
+</script>
+
+
+</body>
+</html>
