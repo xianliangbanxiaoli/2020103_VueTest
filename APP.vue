@@ -1,7 +1,7 @@
 <template>
 	<main>
 		<div class="container">
-			<h1>欢迎使用Feng 待办事项</h1>
+			<h1>欢迎使用Feng 待办事项呀</h1>
 			<div class="input-add"></div>
 			<input type="text" name="todo">
 			<button>
